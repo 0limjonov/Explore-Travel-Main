@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 70px;
+    background: rgb(212, 212, 241);
+    padding-top: 50px;
+}
+
+.top {
+    display: flex;
+    align-items: start;
+    /* justify-content: space-evenly; */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 391px;
+    height: 237px;
+    gap: 50px;
+}
+
+.destination {
+    width: 301px;
+    height: 249px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-weight: bolder;
+}
